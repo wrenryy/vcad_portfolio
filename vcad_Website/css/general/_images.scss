@@ -1,0 +1,42 @@
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img-thumbnail {
+    padding: 0.25rem;
+    background-color: $white;
+    border: 1px solid $black;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+    min-height: 20em;
+
+    @media only screen and (max-width: 736px), only screen and (hover: none) {
+      width: 90%;
+      
+      h6 {
+        font-size: 1.4em !important;
+      }
+    }
+  }
+  
+  .float-center {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .halfPage {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media only screen and (max-width: 736px), only screen and (hover: none) {
+  #advertising-container2, #concept-art {
+    .row {
+      display: grid;
+    }
+  }
+}

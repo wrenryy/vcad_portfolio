@@ -1,0 +1,26 @@
+#contact {
+    background-color: $black;
+    padding: 120px 0px;
+    padding-bottom: 2em;
+
+    .left-heading {
+        h5 {
+          font-size: 4em;
+          line-height: 80%;
+          font-family: metalista-web, serif;
+          font-weight: 400;
+          color: $white !important;
+          text-shadow: 2px 2px $black !important;
+        }
+      }
+}
+
+.accordion-text {
+    p, span, h5, a{
+        color: $white;
+    }
+
+    b {
+        color: $color-second;
+    }
+}

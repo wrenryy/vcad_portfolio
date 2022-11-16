@@ -1,0 +1,60 @@
+footer {
+    background-color: $color-primary;
+    padding: 60px 0px;
+  
+    .social {
+      overflow: hidden;
+      text-align: right;
+  
+      li {
+        margin: 0px 5px;
+        display: inline-block;
+  
+        a {
+          color: $black;
+          text-align: center;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 5px;
+          display: inline-block;
+          font-size: 16px;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+        }
+  
+        a:hover {
+          background-color: $black;
+          color: $black;
+        }
+      }
+    }
+  
+    .copyright {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 15px;
+      color: $black;
+      letter-spacing: 0.88px;
+      text-transform: capitalize;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    footer .copyright {
+      text-align: center;
+    }
+    footer .social {
+      text-align: center;
+      margin-top: 15px;
+    }
+  }
+  
+  .social-icon {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding-right: 5%;
+  }
